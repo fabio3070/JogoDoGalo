@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+	<script type="text/javascript" src="js/jogo.js"></script>
+	<title>
+		Jogo do Galo
+	</title>
+</head>
+<body>
+
+<header>Jogo do Galo</header>
+
+	<table>
+		<tr>
+						
+			<td><input id ="tam" type="text" name="newssubscription" onkeypress="return checkNumber(event)"></td>
+			<td><button name="ok" value="ok" onclick="CriarTab(document.getElementById('tam').value)">OK</button></td>
+		</tr>
+	</table>
+	<div id="jogo"></div>
+
+	<div id="limp"></div>
+
+	<div id="vez"></div>
+	
+	<div id="score"></div>
+
+	<div id="victory"></div>
+
+
+	<script>
+		
+		//console.log(ExistePosicao(1,2,tabuleiro));
+		//console.log(LinhaMatriz(2, tabuleiro));
+		//console.log(ColunaMatriz(2, tabuleiro));
+		//console.log(DiagonalEsquerdaMatriz(tabuleiro));
+		//console.log(DiagonalDireitaMatriz(tabuleiro));
+		//console.log(GanhaLinhaMatriz(0,tabuleiro));
+		//console.log(GanhaColunaMatriz(0, tabuleiro));
+		//console.log(GanhaDiagonalEsquerda(tabuleiro));
+		//console.log(GanhaDiagonalDireita(tabuleiro));
+		//console.log(ValoresIguais(ColunaMatriz(0,tabuleiro)));
+		//console.log(IndiceLinha(tabuleiro, 6));
+		//console.log(IndiceColuna(tabuleiro, 6));
+		//CriarTab(3);
+
+	</script>
+
+</body>
+</html>
